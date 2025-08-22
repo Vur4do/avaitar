@@ -727,10 +727,10 @@ body {
 }
 
 .header__logo {
-  -webkit-box-flex: 0;
-      -ms-flex: 0 1 10.6428571429rem;
-          flex: 0 1 10.6428571429rem;
   margin-right: 2.5714285714rem;
+  color: #0D0F2C;
+  font-weight: 600;
+  font-size: 2.8571428571rem;
 }
 
 .header__logo img {
@@ -881,6 +881,9 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -webkit-column-gap: 1.7142857143rem;
      -moz-column-gap: 1.7142857143rem;
           column-gap: 1.7142857143rem;
@@ -4054,6 +4057,10 @@ body {
 
   .section__title {
     line-height: calc(3.2857142857rem + 12 * (100vw - 320px) / 770);
+  }
+
+  .header__logo {
+    font-size: calc(2.8571428571rem + 0 * (100vw - 320px) / 770);
   }
 
   .starting-block__title {
