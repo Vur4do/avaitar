@@ -355,6 +355,11 @@ body {
   z-index: 2;
 }
 
+.video-parent .youtube-video,
+.youtube-video-parent .youtube-video {
+  border: none;
+}
+
 .video-parent .poster,
 .youtube-video-parent .poster {
   z-index: 3;
